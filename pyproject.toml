@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "repositorieslist"
+version = "0.1.0"
+description = ""
+authors = ["Anderson R Damasceno <anderdam@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+pre-commit = "^3.7.1"
+flake8 = "^7.1.0"
+mypy = "^1.10.1"
+isort = "^5.13.2"
+pytest = "^8.2.2"
+coverage = "^7.5.4"
+bandit = "^1.7.9"
+pylint = "^3.2.5"
+monkeytype = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
